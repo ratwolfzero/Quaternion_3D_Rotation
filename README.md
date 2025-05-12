@@ -1,4 +1,6 @@
-# 🔄 Quaternion Rotation Visualization
+# 🔄 Quaternion 3D Rotation: A Gimbal-Lock-Free Solution
+
+A visualization of smooth 3D rotations using quaternion math
 
 ![Quaternion-Rotation](quat_rot.png)
 
