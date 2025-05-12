@@ -4,33 +4,31 @@ A visualization of smooth 3D rotations using quaternion math
 
 ![Quaternion-Rotation](quat_rot.png)
 
-This project visualizes **combined 3D rotations** using **quaternions** to demonstrate smooth and stable transformations without suffering from **gimbal lock**, a limitation of Euler-based rotation systems.
-
 ## 📌 What It Does
 
 * Animates three orthogonal rings (XY, YZ, XZ planes)
 * Applies a continuously changing rotation using **quaternions** around the X, Y, and Z axes
-* Shows how quaternion multiplication preserves smooth orientation updates, even with compound rotations
+* SDemonstrates how quaternion multiplication preserves smooth orientation updates, avoiding gimbal lock
 
 ## 🧠 Why Quaternions?
 
-Quaternions are ideal for 3D rotations because they:
+Quaternions outperform Euler angles in 3D rotations because they:
 
-* Avoid gimbal lock
+* Avoid gimbal lock (no sudden alignment of axes)
 * Enable smooth interpolation (SLERP)
-* Are more numerically stable over time compared to Euler angles
+* Are numerically stable for long-duration animations
 
-This animation uses a combined rotation in the order **Z × Y × X**, visualized through quaternion multiplication.
+This animation uses a combined rotation in the order Z × Y × X, showcasing seamless transitions.
 
 ## 📜 Historical Context
 
 ### Hamilton's Breakthrough (1843)
 
-Irish mathematician **William Rowan Hamilton** discovered quaternions while seeking a 3D extension of complex numbers. His famous insight, carved into **Broom Bridge** in Dublin, led to the identity:
+Irish mathematician **William Rowan Hamilton** discovered quaternions while seeking a 3D extension of complex numbers. His famous insight, carved into **Broom Bridge** in Dublin:
 
 $$i^2 = j^2 = k^2 = ijk = -1$$
 
-From this identity, the full multiplication rules derive:
+From this, the multiplication rules emerge:
 
 $$
 \begin{aligned}
@@ -40,7 +38,7 @@ ki &= j, & ik &= -j
 \end{aligned}
 $$
 
-Initially used in physics (e.g., Maxwell's electromagnetism), quaternions were later supplanted by **vector calculus** (Gibbs/Heaviside) before their 20th century revival in:
+nitially used in physics (e.g., Maxwell’s electromagnetism), quaternions were later eclipsed by vector calculus (Gibbs/Heaviside) for simplicity. Their 20th-century revival cemented their role in:
 
 * 🚀 Aerospace (attitude control)
 * 🤖 Robotics (orientation interpolation)
