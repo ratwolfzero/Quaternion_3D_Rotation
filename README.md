@@ -38,7 +38,7 @@ ki &= j, & ik &= -j
 \end{aligned}
 $$
 
-nitially used in physics (e.g., Maxwell’s electromagnetism), quaternions were later eclipsed by vector calculus (Gibbs/Heaviside) for simplicity. Their 20th-century revival cemented their role in:
+Initially used in physics (e.g., Maxwell’s electromagnetism), quaternions were later eclipsed by vector calculus (Gibbs/Heaviside) for simplicity. Their 20th-century revival cemented their role in:
 
 * 🚀 Aerospace (attitude control)
 * 🤖 Robotics (orientation interpolation)
