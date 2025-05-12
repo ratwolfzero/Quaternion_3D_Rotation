@@ -8,7 +8,7 @@ A visualization of smooth 3D rotations using quaternion math
 
 * Animates three orthogonal rings (XY, YZ, XZ planes)
 * Applies a continuously changing rotation using **quaternions** around the X, Y, and Z axes
-* SDemonstrates how quaternion multiplication preserves smooth orientation updates, avoiding gimbal lock
+* Demonstrates how quaternion multiplication preserves smooth orientation updates, avoiding gimbal lock
 
 ## 🧠 Why Quaternions?
 
