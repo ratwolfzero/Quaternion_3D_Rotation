@@ -26,7 +26,7 @@ This animation uses a combined rotation in the order **Z × Y × X**, visualized
 
 Irish mathematician **William Rowan Hamilton** discovered quaternions while seeking a 3D extension of complex numbers. His famous insight, carved into **Broom Bridge** in Dublin, led to the identity:
 
-$$i^2 = j^2 = k^2 = ijk = -1$$ *(Inscribed on the bridge)*
+$$i^2 = j^2 = k^2 = ijk = -1$$
 
 From this identity, the full multiplication rules derive:
 
