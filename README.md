@@ -64,6 +64,7 @@ where:
    * **Associative**: $(\mathbf{p}\mathbf{q})\mathbf{r} = \mathbf{p}(\mathbf{q}\mathbf{r})$ → stable chaining
 
 2. **Rotation Encoding**
+
    A **unit quaternion** ($\|\mathbf{q}\| = 1$) encodes a rotation by angle $\theta$ around axis
 
    $\mathbf{u} = (u_x, u_y, u_z)$ ($\|\mathbf{u}\| = 1$) as:
