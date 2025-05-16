@@ -2,7 +2,7 @@
 
 A visualization of smooth 3D rotations using quaternion math
 
-![Quaternion-Rotation](quat_rot.png)
+![Quaternion-Rotation](quaternion_rotation.gif)
 
 ## 📌 What It Does
 
