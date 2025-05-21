@@ -67,9 +67,9 @@ def main():
     rotator = CombinedQuaternionRotator()
 
     ani = FuncAnimation(
-        fig, update, frames=200,
+        fig, update, frames=400,
         fargs=(rotator, rings, artists),
-        interval=20, blit=False  # blit=False for 3D animations
+        interval=30, blit=False  # blit=False for 3D animations
     )
 
     plt.tight_layout()
