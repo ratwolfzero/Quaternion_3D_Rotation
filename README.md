@@ -67,7 +67,7 @@ where:
 
    A **unit quaternion** ($\|\mathbf{q}\| = 1$) encodes a rotation by angle $\theta$ around axis
 
-   $\mathbf{u} = (u_x, u_y, u_z)$ ($\|\mathbf{u}\| = 1$) as:
+   $\mathbf{u} = (u_x, u_y, u_z)$ where ($\|\mathbf{u}\| = 1$) as:
 
    $$\mathbf{q} = \cos\left(\frac{\theta}{2}\right) + \sin\left(\frac{\theta}{2}\right)(u_x i + u_y j + u_z k)$$
 
