@@ -14,11 +14,10 @@ A visualization of smooth 3D rotations using quaternion math
 
 Quaternions outperform Euler angles in 3D rotations because they:
 
-* Avoid gimbal lock (no sudden alignment of axes)
-* Enable smooth interpolation (SLERP)
-* Are numerically stable for long-duration animations
-
-This animation uses a combined rotation in the order Z × Y × X, showcasing seamless transitions.
+Avoid gimbal lock (no sudden alignment of axes)
+Support smooth interpolation between orientations (e.g., via SLERP, when needed)
+Are numerically stable for long-duration animations
+This animation uses a combined rotation in the order Z × Y × X, showcasing seamless transitions through direct quaternion multiplication.
 
 ## 📜 Historical Context
 
