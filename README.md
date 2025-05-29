@@ -39,6 +39,8 @@ ki &= j, & ik &= -j
 \end{aligned}
 $$
 
+The solution preserved algebraic consistency at the cost of commutativity — making quaternions mathematics’ first successful extension of complex numbers into higher dimensions.
+
 Initially used in physics (e.g., Maxwell’s electromagnetism), quaternions were later eclipsed by vector calculus (Gibbs/Heaviside) for simplicity. Their 20th-century revival cemented their role in:
 
 * 🚀 Aerospace (attitude control)
