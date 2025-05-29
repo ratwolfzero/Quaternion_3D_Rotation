@@ -24,7 +24,8 @@ This animation uses a combined rotation in the order Z × Y × X, showcasing sea
 
 ### Hamilton's Breakthrough (1843)
 
-Irish mathematician **William Rowan Hamilton** discovered quaternions while seeking a 3D extension of complex numbers. His famous insight, carved into **Broom Bridge** in Dublin:
+William Rowan Hamilton, an Irish self-taught mathematical genius — discovered quaternions while attempting to generalize complex numbers into triplets of the form a+bi+cj. Though this seemed a natural extension from two to three dimensions, he found consistent multiplication rules impossible to define.
+His breakthrough came on October 16, 1843, near Dublin’s Broom Bridge when he realized four terms were needed. Introducing k=ij as the product of the first two imaginary units, he created quaternions (a+bi+cj+dk) governed by:
 
 $$i^2 = j^2 = k^2 = ijk = -1$$
 
