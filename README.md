@@ -77,8 +77,12 @@ $\mathbf{q} = \cos\left(\frac{\theta}{2}\right) + \sin\left(\frac{\theta}{2}\rig
 The \$\theta/2\$ term ensures correct rotational composition (via quaternion multiplication).
 While **SLERP** (Spherical Linear Interpolation) is often used to interpolate smoothly between two orientations — such as keyframes in animation or robotic motion planning — it is not used here, since this animation uses continuous incremental rotation updates.
 
-SLERP Note
-SLERP (Spherical Linear Interpolation) is commonly used when you need smooth transitions between *two known orientations*, such as in keyframe animation or robotic joint planning. This animation instead builds up smooth motion over time using direct quaternion multiplication, so SLERP is not required.
+SLERP Note:
+SLERP is commonly used when you need smooth transitions between two known orientations, such as in keyframe animation or robotic joint planning.
+SLERP smoothly interpolates between quaternions along the shortest 4D arc.
+Due to the double-covering property (where q and −q represent the same 3D rotation), SLERP ensures the shortest path by negating one quaternion if their dot product is negative.  
+
+This animation instead builds up smooth motion over time using direct quaternion multiplication, so SLERP is not required.
 
 ---
 
