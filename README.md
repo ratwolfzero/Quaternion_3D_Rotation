@@ -24,9 +24,13 @@ This animation uses a combined rotation in the order Z × Y × X, showcasing sea
 
 ### Hamilton's Breakthrough (1843)
 
-William Rowan Hamilton, an Irish mathematician, was both formally educated at Trinity College Dublin and largely self-taught, combining his academic studies with a deep personal passion for mathematics. This self-directed approach led him to discover quaternions while attempting to generalize complex numbers into triplets of the form $a + bi + cj$. Though this seemed a natural extension from two to three dimensions, he found consistent multiplication rules impossible to define.  
+William Rowan Hamilton, an Irish mathematician, was both formally educated at Trinity College Dublin and largely self-taught, combining his academic studies with a deep personal passion for mathematics. This self-directed approach led him to discover quaternions while attempting to generalize complex numbers into triplets of the form a + bi + cj. Though this seemed a natural extension from two to three dimensions, he found that consistent multiplication rules were impossible to define.
 
-His breakthrough came on October 16, 1843, near Dublin’s Broom Bridge, when he realized that four terms were needed. Introducing $k = ij$ as the product of the first two imaginary units, he created quaternions $(a + bi + cj + dk)$, governed by:
+His breakthrough came on October 16, 1843, while walking near Dublin’s Broom Bridge, when he omitted commutativity and introduced four terms. By defining ij = k and ji = −k as the product of the first two imaginary units, he created quaternions of the form:
+
+a + bi + cj + dk
+
+governed by the relations:
 
 $$i^2 = j^2 = k^2 = ijk = -1$$
 
@@ -40,9 +44,13 @@ ki &= j, & ik &= -j
 \end{aligned}
 $$
 
-The solution preserved algebraic consistency at the cost of commutativity — making quaternions mathematics’ first successful extension of complex numbers into higher dimensions.
+This solution preserved algebraic consistency at the cost of commutativity — making quaternions mathematics’ first successful extension of complex numbers into higher dimensions.  
 
-Initially used in physics (e.g., Maxwell’s electromagnetism), quaternions were later eclipsed by vector calculus (Gibbs/Heaviside) for simplicity. Their 20th-century revival cemented their role in:
+Initially used in physics (e.g., in early formulations of Maxwell’s electromagnetism), quaternions were later eclipsed by the vector calculus of Gibbs and Heaviside for its relative simplicity.  
+
+## 20th-Century Revival
+
+Their 20th-century revival cemented their role in:
 
 * 🚀 Aerospace (attitude control)
 * 🤖 Robotics (orientation interpolation)
