@@ -75,7 +75,10 @@ where:
 
    $$\mathbf{q} = \cos\left(\frac{\theta}{2}\right) + \sin\left(\frac{\theta}{2}\right)(u_x i + u_y j + u_z k)$$
 
-   The $\theta/2$ term enables smooth interpolation (SLERP) and avoids double-covering.
+   The $\theta/2$ term ensures correct rotational composition (via quaternion multiplication) and enables smooth interpolation (via SLERP*).
+
+  *SLERP (Spherical Linear Interpolation) smoothly interpolates between quaternions along the shortest 4D arc. Due to the double-covering property  
+  (where q and −q represent the same 3D rotation), SLERP ensures the shortest path by negating one quaternion if their dot product is negative.
 
 ---
 
