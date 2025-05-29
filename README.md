@@ -28,7 +28,7 @@ William Rowan Hamilton, an Irish mathematician, was both formally educated at Tr
 
 His breakthrough came on October 16, 1843, while walking near Dublin’s Broom Bridge, when he abandoned the assumption of commutativity and introduced four terms. By defining ij = k and ji = −k as the product of the first two imaginary units, he created quaternions of the form:
 
-a + bi + cj + dk
+$$a + bi + cj + dk$$
 
 governed by the relations:
 
