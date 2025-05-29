@@ -83,7 +83,8 @@ A **unit quaternion** (\$|\mathbf{q}| = 1\$) encodes a rotation by angle \$\thet
 
 $\mathbf{q} = \cos\left(\frac{\theta}{2}\right) + \sin\left(\frac{\theta}{2}\right)(u_x i + u_y j + u_z k)$
 
-The \$\theta/2\$ term ensures correct rotational composition (via quaternion multiplication).
+The \$\theta/2\$ term ensures correct rotational composition (via quaternion multiplication).  
+
 While **SLERP** (Spherical Linear Interpolation) is often used to interpolate smoothly between two orientations — such as keyframes in animation or robotic motion planning — it is not used here, since this animation uses continuous incremental rotation updates.
 
 SLERP Note:
