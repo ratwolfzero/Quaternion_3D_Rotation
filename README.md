@@ -29,7 +29,7 @@ His breakthrough came on October 16, 1843, near Dublin’s Broom Bridge when he 
 
 $$i^2 = j^2 = k^2 = ijk = -1$$
 
-From this, the multiplication rules emerge:
+These fundamental relations lead to the non-commutative multiplication rules:
 
 $$
 \begin{aligned}
