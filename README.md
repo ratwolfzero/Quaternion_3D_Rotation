@@ -24,7 +24,7 @@ This animation uses a combined rotation in the order Z × Y × X, showcasing sea
 
 ### Hamilton's Breakthrough (1843)
 
-William Rowan Hamilton, an Irish mathematician, was both formally educated at Trinity College Dublin and largely self-taught, combining his academic studies with a deep personal passion for mathematics. This self-directed approach led him to discover quaternions while attempting to generalize complex numbers into triplets of the form a + bi + cj. Though this seemed a natural extension from two to three dimensions, he found that consistent multiplication rules were impossible to define.
+William Rowan Hamilton, an Irish mathematician, was both formally educated at Trinity College Dublin and largely self-taught, combining his academic studies with a deep personal passion for mathematics. This self-directed approach led him to discover quaternions while attempting to generalize complex numbers (which take the form a + bi, where i² = −1) into triplets of the form a + bi + cj. Though this seemed a natural extension from two to three dimensions, he found that consistent multiplication rules were impossible to define.
 
 His breakthrough came on October 16, 1843, while walking near Dublin’s Broom Bridge, when he abandoned the assumption of commutativity and consequently introduced four terms. By defining ij = k and ji = −k as the product of the first two imaginary units, he created quaternions of the form:
 
