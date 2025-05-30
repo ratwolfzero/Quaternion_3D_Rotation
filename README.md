@@ -94,8 +94,6 @@ SLERP smoothly interpolates between quaternions along the shortest 4D arc.
 
 Due to the double-covering property (where q and −q represent the same 3D rotation), SLERP ensures the shortest path by negating one quaternion if their dot product is negative.  
 
-This animation instead builds up smooth motion over time using direct quaternion multiplication, so SLERP is not required.
-
 ---
 
 ## 🛠️ Requirements
